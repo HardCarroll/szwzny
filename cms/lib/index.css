@@ -1,0 +1,202 @@
+/* CSS Document */
+html, body, .page {
+  padding: 0;
+}
+li {
+  cursor: default;
+}
+.page>.ct-wrap, .page>.head-nav {
+  margin: 0;
+}
+.page>.ct-wrap {
+  background-color: #555;
+}
+.head-nav {
+  border: none;
+  border-radius: 0;
+  background-color: #eee;
+}
+.head-nav>.logo{
+  background-color: #337ab7;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.head-nav>.logo>.navbar-brand {
+  color: #FFF;
+  margin-left: 0;
+  padding: 0;
+  line-height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+.head-nav>.logo>.navbar-brand>.glyphicon {
+  font-size: 26px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 15px;
+}
+.head-nav>.account>.navbar-nav {
+  margin: 0;
+}
+.head-nav>.account a {
+  text-align: center;
+}
+.page>.ct-wrap>.aside-bar {
+  background-color: #555;
+  color: #fff;
+  padding: 15px 0;
+}
+.page>.ct-wrap>.aside-bar>.list-group {
+  margin-bottom: 0;
+}
+.page>.ct-wrap>.aside-bar>.list-group>.list-group-item {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+}
+.page>.ct-wrap>.aside-bar>.list-group>.list-group-item:hover, .page>.ct-wrap>.aside-bar>.list-group>.list-group-item:focus, .page>.ct-wrap>.aside-bar>.list-group>.list-group-item.active {
+  color: #333;
+  background-color: #CCC;
+}
+.page>.ct-wrap>.content {
+  padding: 15px;
+  padding-bottom: 0;
+  background-color: #FFF;
+}
+.content>.ct-top>.top-right {
+  margin-bottom: 15px;
+}
+.content>.ct-top>.top-left>.site-info {
+  box-shadow: 0 0 2px 2px #ddd;
+  margin-bottom: 15px;
+}
+.content>.ct-top>.top-left>.site-info>.title {
+  padding: 0 15px;
+  margin-bottom: 0;
+  line-height: 34px;
+}
+.content>.ct-top>.top-left>.site-info>.tab-detail {
+  margin-bottom: 0;
+  text-align: center;
+}
+.site-info>.tab-detail>tbody>tr>td:first-child {
+  text-align: right;
+}
+.site-info>.title>.btn-edit {
+  float: right;
+  display: flex;
+}
+.site-info>.title>.btn-edit>span {
+  margin-right: 5px;
+  line-height: 18px;
+}
+.content>.ct-top .news-info {
+  box-shadow: 0 0 2px 2px #ddd;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.content>.ct-top .news-info>.title {
+  height: 34px;
+  margin-bottom: 0;
+  line-height: 34px;
+  padding: 0 15px;
+}
+.news-info>.counts {
+  height: 60px;
+  margin-bottom: 0;
+}
+.news-info>.counts>.num {
+  font-size: 46px;
+  margin-left: 100px;
+}
+.news-info>.title>.glyphicon {
+  float: right;
+  height: 34px;
+  line-height: 34px;
+}
+.news-info>.counts>.glyphicon {
+  float: right;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: center;
+  color: #FFF;
+  background-color: rgb(6, 176, 184);
+  transform: translateY(10px);
+  margin-right: 10px;
+}
+.scroll-info, .company-info, .all-info {
+  margin-bottom: 15px;
+}
+.content>.input-group {
+  margin-bottom: 15px;
+}
+.content>.submit>.tips, .content>.submit>.buttons {
+  text-align: center;
+  line-height: 34px;
+}
+.content>.submit>.tips {
+  color: #5cb85c;
+}
+.content>.submit>.buttons>.btn {
+  margin: 0 5px;
+}
+.content>.tab-content>.tab-pane>.pagination {
+  margin: 0 auto;
+}
+.content>.nav>li:last-child>a:hover {
+  background-color: #5cb85c;
+}
+.content>.content-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content .btn {
+  border-radius: 0;
+  margin-left: 5px;
+}
+.news-list {
+  padding: 0;
+  margin: 15px 0;
+}
+.news-list>li.list-group-item {
+  border-radius: 0;
+  line-height: 34px;
+}
+.tab-content>.news-tab>.list-wrap {
+  text-align: center;
+}
+#rec-editor {
+  margin-top: 15px;
+}
+#btn_send_news>span {
+  margin-right: 5px;
+}
+#modalSendnews .modal-title {
+  text-align: center;
+}
+#modalSendnews .input-group {
+  margin-bottom: 5px;
+}
+#modalConfirm>.modal-dialog>.modal-content {
+  transform:translateY(50%);
+}
+#modPwd>.modal-dialog>.modal-content {
+  transform: translateY(35%);
+}
+.modal-footer>.tips {
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 2em;
+  color: #C00;
+}

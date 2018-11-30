@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>糟糕..被禁止访问了..</title>
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <style>
+    .computer-wrap {
+      width: 200px;
+      /* height: 40px; */
+      box-sizing: border-box;
+      margin: 0 auto;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .screen{
+      box-sizing: border-box;
+      background-color: #fff;
+      border: 10px solid gray;
+      border-radius: 4px;
+      width: 100%;
+      height: 140px;
+      text-align: center;
+      position: relative;
+    }
+    .screen>p {
+      margin: 16px 0;
+    }
+    .screen>span {
+      font-size: 26px;
+    }
+    .sup {
+      width: 100%;
+      height: 20px;
+      background-color: #333;
+      position: relative;
+      background-image: linear-gradient(-60deg, #000, #fff);
+    }
+    .sup::before, .sup::after {
+      display: block;
+      width: 40%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-color: #fff;
+      content: "";
+    }
+    .sup::before {
+      left: 0;
+      border-radius: 0 10px 10px 0;
+    }
+    .sup::after {
+      right: 0;
+      border-radius: 10px 0 0 10px;
+    }
+    .foot {
+      width: 50%;
+      height: 16px;
+      margin: 0 auto;
+      background-color: #666;
+    }
+    .content-wrap{
+      display: inline-block;
+      vertical-align: top;
+    }
+    .content-hd{
+      display: flex;
+    }
+    .hd-digital{}
+    .hd-digital>span {
+      font-size: 8em;
+    }
+    .hd-digital>span:nth-child(2) {
+      font-size: 6em;
+    }
+    .hd-description>p {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="computer-wrap">
+    <div class="screen">
+      <p>403 Error: Forbidden</p>
+      <span class="glyphicon glyphicon-lock"></span>
+    </div>
+    <div class="sup"></div>
+    <div class="foot"></div>
+  </div>
+  <div class="content-wrap">
+    <div class="content-hd">
+      <div class="hd-digital">
+        <span class="text-danger">4</span>
+        <span class="glyphicon glyphicon-ban-circle"></span>
+        <span class="text-danger">3</span>
+      </div>
+      <div class="hd-description">
+        <p>Error</p>
+        <p>Forbidden</p>
+      </div>
+    </div>
+    <div class="content-bd">
+      没有权限，请联系管理员
+    </div>
+  </div>
+</body>
+</html>
