@@ -130,7 +130,7 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/common.php");
 <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/common.js"></script>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Q3tkjSIyd86jWKCzKiRfO4wjtjrnmmZR"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=Q3tkjSIyd86jWKCzKiRfO4wjtjrnmmZR"></script>
 <script type="text/javascript">
   $( document ).ready( function () {
     var $ad_wrap = $( ".ad-list" );
