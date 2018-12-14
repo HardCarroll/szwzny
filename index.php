@@ -202,31 +202,25 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/common.php");
             <ul class="carousel-wrap">
               <li>
                 <a href="javascript:;">
-                  <img src="/src/pro_img_01.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地01">
-                  <p>花椒基地</p>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:;">
                   <img src="/src/pro_img_02.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地02">
                   <p>郑家铺村庄</p>
                 </a>
               </li>
               <li>
                 <a href="javascript:;">
-                  <img src="/src/pro_img_03.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地03">
-                  <p>水上渔者</p>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:;">
-                  <img src="/src/pro_img_04.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地04">
-                  <p>卫星地图</p>
+                  <img src="/src/pro_img_01.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地01">
+                  <p>花椒基地</p>
                 </a>
               </li>
               <li>
                 <a href="javascript:;">
                   <img src="/src/pro_img_05.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地05">
+                  <p>大自然原生态蜂蜜</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_12.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地01">
                   <p>大自然原生态蜂蜜</p>
                 </a>
               </li>
@@ -252,6 +246,36 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/common.php");
                 <a href="javascript:;">
                   <img src="/src/pro_img_09.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地09">
                   <p>潭口渔业小龙虾</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_10.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地01">
+                  <p>中药材基地</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_11.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地01">
+                  <p>五家湾林木基地</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_03.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地03">
+                  <p>水上渔者</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_13.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地03">
+                  <p>洈水风光</p>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="/src/pro_img_04.jpg" alt="松滋市洈洲农业发展有限公司下设扶贫产业基地04">
+                  <p>卫星地图</p>
                 </a>
               </li>
             </ul>
