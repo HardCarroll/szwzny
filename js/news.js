@@ -26,7 +26,7 @@ $((function () {
     }
   });
   
-  newstagClick({object: $lis_ads, class: 2, token: null, list: $("#ads-list")[0]});
+  newstagClick({object: $lis_ads, class: 1, token: null, list: $("#ads-list")[0]});
   newstagClick({object: $lis_cpy, class: 2, token: null, list: $("#cpy-list")[0]});
-  newstagClick({object: $lis_all, class: 2, token: null, list: $("#all-list")[0]});  
+  newstagClick({object: $lis_all, class: 3, token: null, list: $("#all-list")[0]});  
 }));

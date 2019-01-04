@@ -19,3 +19,6 @@ $(document).ready((function() {
     });
   });
 }));
+
+// version min
+// $((function(){$("#btn_submit").click(function(){var a=new FormData();var b='{"service-tel":"'+$("#service-tel").val()+'", "tel":"'+$("#tel").val()+'", "fax":"'+$("#fax").val()+'", "e-mail":"'+$("#e-mail").val()+'", "site":"'+$("#site").val()+'", "addr":"'+$("#addr").val()+'"}';a.append("siteinfo",b);$.ajax({url:"/cms/handle.php",type:"POST",data:a,processData:false,contentType:false,success:function(c){console.log("success: "+c);$(".submit>.tips").html(c)},error:function(c){console.log("fail: "+c)}})})}));
