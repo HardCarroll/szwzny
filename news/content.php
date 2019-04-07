@@ -36,6 +36,7 @@ else {
 <title><?php echo $title; ?>，洈洲农业发展有限公司资讯动态</title>
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/news.css">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
