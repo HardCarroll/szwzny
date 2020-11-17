@@ -16,7 +16,7 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/common.php");
 </head>
 
 <body>
-<!--  头部区域-->
+<!--  头部区域 -->
   <section class="fixed-top">
     <div class="header">
       <div class="hd-logo">
