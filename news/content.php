@@ -147,7 +147,7 @@ else {
 <!--  脚注区域-->
   <section class="ft-wrap">
     <div class="footer">
-      <p>Copyright © 2018-2019&nbsp;<a href="/index.php">洈洲农业发展有限公司</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/"><i class="ico ico-ba"></i>鄂ICP备18027002号-1</a></p>
+      <p>Copyright © 2018-2019&nbsp;<a href="/index.php">洈洲农业发展有限公司</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn"><i class="ico ico-ba"></i>鄂ICP备18027002号-1</a></p>
       <p>为保证最佳浏览效果，请在PC端访问本站</p>
     </div>
   </section>
